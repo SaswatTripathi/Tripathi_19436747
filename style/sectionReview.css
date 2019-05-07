@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.resume{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 30px;
+
+}
+.resume h1{
+
+	border-bottom: solid red;
+	border-width: medium;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.bottomcontainer
+{	
+	width: 1000px;
+	margin: 22px 400px 0px 100px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 30px;
+
+}
+.img img{
+	width: 200px;
+	border-radius:1%;
+	margin-top: 20px;
+}
+.text
+{
+	width:400px; 
+}
+
+
