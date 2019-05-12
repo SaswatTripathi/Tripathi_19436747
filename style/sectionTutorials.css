@@ -2,37 +2,25 @@
 /* CSS Document */
 
 
-.review{
+.tutorials{
 	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
 	font-size: 30px;
 
 }
-h1{
+.tutorials h1{
 
 	border-bottom: solid red;
 	border-width: medium;
 	text-align: center;
 	margin-bottom: 5px;
 }
-h4{
+h2{
 
 	border-bottom: solid red;
 	border-width: medium;
 	text-align: center;
 	margin-bottom: 5px;
 }
-
-
-.img img{
-	width: 250px;
-	border-radius:1%;
-	margin-top: 50px;
-}
-.text
-{
-	width:400px; 
-}
-
 .topcontainer
 {	
 	width: 1000px;
@@ -42,7 +30,8 @@ h4{
 	grid-column-gap: 30px;
 
 }
-.secondcontainer
+
+.midcontainer
 {
 	width: 1000px;
 	margin: 22px 400px 0px 100px;
@@ -51,14 +40,6 @@ h4{
 	grid-column-gap: 30px;
 
 
-}
-.thirdcontainer
-{
-	width: 1000px;
-	margin: 22px 400px 0px 100px;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-column-gap: 30px;
 }
 .bottomcontainer
 {	
@@ -70,4 +51,13 @@ h4{
 
 }
 
-
+.img img{
+	width: 250px;
+	border-radius:50px;
+	margin-top: 20px;
+}
+.text
+{
+	width: 500px;
+	margin: 10px;
+}

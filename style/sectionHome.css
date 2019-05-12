@@ -11,14 +11,17 @@
 {
 	margin: 2px 500px 0px 400px;
 }
+
+
 .img1
 {
-	margin: 20px 200px 0px 0px;
+	margin: 20px 200px 0px 50px;
 }
 .img1 img
 {
 	width: 500px;
 }
+
 
 .firsttext{
 	width: 100%;
@@ -40,20 +43,24 @@
 .bottomcontainer
 {	
 	width: 1500px;
-	margin: 5px;
+	margin: 10px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
-	border: solid black;
+}
+.text
+{
+	margin-top: 25px;
+}
+.img
+{
+	margin-left: 50px;
 }
 .img img{
 	width: 200px;
 	border-radius:1%;
-	border: solid black;
+	margin-top: 50px;
 }
-.text
-{
-	border: solid black;
-}
+
 
 
 

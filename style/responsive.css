@@ -1,41 +1,84 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media only screen and (max-width:768px){
-	.header{
+@media only screen and (max-width:970px){
+
+	.header>div{
+			width: auto;
+			margin: 0px;
+			display: flex;
+		   	flex-direction: column;
+
+	}
+	.name
+	{
+		width: auto;
+		margin:20px;
 		display: flex;
 		flex-direction: column;
 		text-align: center;
+
 	}
-	.name{
-		width: 100%;
-		margin: 0 auto;
-	}
-	.profession{
-		width: 100%;
-		margin: 0 auto;
-	}
-	.menu{
-		width: 100%;
-		margin: 20px auto;
-		display: flex;
-		flex-direction: column;
-	
-		
-	}
+
+
 	.menu>div{
-		width: 100%;
-		margin: 0 auto 20px; 
+		width: auto;
+		margin:20px 0px 20px 60px;
+		display: flex;
+		flex-direction: column;
 		text-align: center;
+
 	}
+
 	.section{
 		display: flex;
 		flex-direction: column;
+		width: auto;
+		margin: 0px;
+
+	}
+	.firsttext
+	{
+		width: auto;
+		margin: 0px;
+
+	}
+
+	.topcontainer
+		{
+		width: auto;
+		margin: 0px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+
+	}
+	.topcontainer>div
+	{
+		margin: 0px;
 		align-content: center;
 	}
-	.footer{
-		width: 100%;
-		display: block;
+	.img1>img
+	{
+		width: 350px;
+		margin:20px 0px 0px 80px;
 	}
+	.bottomcontainer
+	{
+		width: auto;
+		margin: 0px;
+		display: grid;
+		grid-template-columns: auto auto;
+		align-content: center;
 	
+	}
+
+	.footer{
+		width: auto;
+		margin: 0px;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+
+	}
 }

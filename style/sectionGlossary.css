@@ -2,7 +2,7 @@
 /* CSS Document */
 
 
-.review{
+.glossary{
 	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
 	font-size: 30px;
 
@@ -21,53 +21,43 @@ h4{
 	text-align: center;
 	margin-bottom: 5px;
 }
-
-
-.img img{
-	width: 250px;
-	border-radius:1%;
-	margin-top: 50px;
-}
-.text
-{
-	width:400px; 
-}
-
 .topcontainer
 {	
 	width: 1000px;
-	margin: 22px 400px 0px 100px;
+	margin: 150px 400px 0px 300px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 30px;
 
 }
-.secondcontainer
+
+.midcontainer
 {
 	width: 1000px;
-	margin: 22px 400px 0px 100px;
+	margin: 150px 400px 0px 300px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 30px;
 
 
-}
-.thirdcontainer
-{
-	width: 1000px;
-	margin: 22px 400px 0px 100px;
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	grid-column-gap: 30px;
 }
 .bottomcontainer
 {	
 	width: 1000px;
-	margin: 22px 400px 50px 100px;
+	margin: 150px 400px 100px 300px;
 	display: grid;
 	grid-template-columns: auto auto auto auto;
 	grid-column-gap: 30px;
 
 }
 
-
+.img img{
+	width: 250px;
+	border-radius:50px;
+	margin-top: 20px;
+}
+.text
+{
+	width: 100%;
+	margin: 10px;
+}
