@@ -1,0 +1,57 @@
+@media only screen and (max-width:970px){
+	
+	.glossary{
+		width: auto;
+		margin:0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.topcontainer
+	{
+		width: auto;
+		margin:10px 0px 0px 20px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.midcontainer
+	{
+		width: auto;
+		margin:0px 0px 0px 20px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.bottomcontainer
+	{
+		width: auto;
+		margin:0px 0px 0px 20px;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.topcontainer>.img
+	{
+		margin-left:60px;
+	}
+	.secondcontainer>.img
+	{
+		margin-left:60px;;
+	}
+	.thirdcontainer>.img
+	{
+		margin-right: 20px;
+	}
+	.bottomcontainer>.img
+	{
+		margin-left:60px;
+	}
+	.text
+	{
+		width: auto;
+	}
+
+
+}

@@ -1,0 +1,47 @@
+@media only screen and (max-width:970px){
+
+
+		.section{
+			display: flex;
+			flex-direction: column;
+			width: auto;
+			margin: 0px;
+
+		}
+		.firsttext
+		{
+			width: auto;
+			margin: 0px;
+
+		}
+
+		.topcontainer
+		{
+			width: auto;
+			margin: 0px;
+			display: flex;
+			flex-direction: column;
+			align-content: center;
+
+		}
+		.topcontainer>div
+		{
+			margin: 0px;
+			align-content: center;
+		}
+		.img1>img
+		{
+			width: 350px;
+			margin:20px 0px 0px 80px;
+		}
+		.bottomcontainer
+		{
+			width: auto;
+			margin: 0px;
+			display: grid;
+			grid-template-columns: auto auto;
+			align-content: center;
+			
+		}
+
+	}

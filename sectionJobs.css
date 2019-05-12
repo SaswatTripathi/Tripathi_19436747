@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.jobs{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 30px;
+
+}
+h1{
+
+	border-bottom: solid red;
+	border-width: medium;
+	text-align: center;
+	margin-bottom: 5px;
+}
+h5{
+
+	border-bottom: solid red;
+	margin-bottom: 5px;
+}
+h3{
+
+	border-bottom: solid red;
+	margin-bottom: 5px;
+	text-align: center;
+}
+.topcontainer
+{	
+	width: 1000px;
+	margin: 50px 20px 0px 200px;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap:50px;
+
+
+}
+.topcontainer>div:hover
+{
+	transform: scale(1.1);
+}
+.img
+{
+	margin-left: 130px;
+}
+.img img{
+	width: 250px;
+	border-radius:50px;
+	margin-top: 20px;
+}
+.text
+{
+	width: 100%;
+	margin: 10px;
+}
+form
+{
+	margin:20px;
+	display: flex;
+	flex-direction: column;
+}
+.send
+{
+	margin:10px 0px 0px 1200px;
+}
+#message
+{
+	padding: 20px;
+}

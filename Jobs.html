@@ -1,104 +1,103 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style/headerandfooterstyle.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="headerandfooterstyle.css"><!--calling the header and footer css file-->
+	<link rel="stylesheet" type="text/css" href="sectionJobs.css"><!--calling the section css file for this page-->
+	<link rel="stylesheet" type="text/css" href="responsiveHeaderandFooter.css"><!--calling the header and footer responsive css file for this page-->
+	<link rel="stylesheet" type="text/css" href="responsiveJobs.css"><!--calling the section responsive css file for this page-->
 
-<meta charset="utf-8">
-<title>Jobs</title>
+	<title>Jobs</title>
 </head>
 
 <body>
 	
 	<div class="header">
 		<div class="name">Tech News</div>
-		<div class="date">date</div>
 		<div class="menu">
-				<div class="home"><a href="index.html">Landing</a></div>
-				<div class="about"><a href="Review.html">Review</a></div>
-				<div class="about"><a href="Glossary.html">Glossary</a></div>
-				<div class="about active"><a href="#">Jobs</a></div>
-				<div class="about"><a href="Tutorials.html">Tutorials</a></div>
+			<div class="home"><a href="index.html">Landing</a></div><!--created a hyperlink for Landing page-->
+			<div class="about"><a href="Review.html">Review</a></div><!--created a hyperlink for Review page-->
+			<div class="about"><a href="Glossary.html">Glossary</a></div><!--created a hyperlink for Glossary page-->
+			<div class="about active"><a href="#">Jobs</a></div><!--calls the same page which the user is in-->
+			<div class="about"><a href="Tutorials.html">Tutorials</a></div><!--created a hyperlink for Tutorials page-->
 		</div>
-	</div>
-	
-		    
-		<div class="section">
-			
+	</div>  
+	<div class="section">
 
+		<div class="Jobs"><h1>Jobs</h1>
+			<div class="topcontainer">
+				<div class="leftcontainer">
+					<div class="img">
+						<img src="designer.png" alt="designer logo">
+					</div>
+					<div class="text">
+						<h3>Web Developer</h3>
+						<p>Web developer is a person who builts the web site in codeing applications like Sublime, Dreamweaver. <br>
+							A web developer write codes of html,css,javascript.<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<div class="C_display"><h1>CONTACT</h1>
+						</p>
+					</div>
+				</div>
+				<div class="rightcontainer">
+					<div class="img">
+						<img src="developer.png" alt="developer logo">
+					</div>
+					<div class="text">
+						<h3>Web Designer</h3>
+						<p>Web desigener is a person who designs the web site interface in applcations like photoshop,illustrator.<br>
+							A web desigener designs the graphical design before the web site is completed.
+						</p>
+					</div>
+				</div>
 			</div>
-			<div class="Message">
-			<h3>Looking forward for your message</h3>
-			<div class="form">
+
+
+			<!--Creation of form-->
+			<div class="contact"><h1>Connect with us</h1>
+			</div>
+				
+				<div class="form">
+
+					<form>
+
+						<label for="fname">First Name</label>
+						<input type="text" id="fname" name="firstname" placeholder="Firstname *"> <!--displays a textbox to add first name-->
+						<div id="fnamebox"></div> <!--this div is created to display message when the validation is done and there is error--> 
+
+						<label for="lname">Last Name</label>
+						<input type="text" id="lname" name="lastname" placeholder="Lastname *"><!--displays a textbox to add last name-->
+						<div id="lnamebox"></div><!--this div is created to display message when the validation is done and there is error--> 
+
+
+						<label for="email">E-mail</label>
+						<input type="text" id="email" name="email" placeholder="E-mail *"><!--displays a textbox to add email-->
+						<div id="emailbox"></div><!--this div is created to display message when the validation is done and there is error--> 
+
+
+						<label for="message">Message</label>
+						<input type="text" name="message" id="message" placeholder="Your Message here"><!--displays a textbox to add message if a user wants-->
+
+						<div class="send">
+							<input type="submit" value="Send">
+						</div>	
+						<h5>You can leave your email id if you want to subscribe to our page and get daily update.</h5>				
+					</form>
+				</div>
 			
-				<form action="">
-					
-					<label for="fname">First Name</label>
-					<input type="text" id="fname" name="firstname" placeholder="Firstname *">
-					<div id="fnamebox"></div>
-					
-					<label for="lname">Last Name</label>
-					<input type="text" id="lname" name="lastname" placeholder="Lastname *">
-					<div id="lnamebox"></div>
-
-
-					<label for="email">E-mail</label>
-					<input type="text" id="email" name="email" placeholder="E-mail *">
-					<div id="emailbox"></div>
-
-					<div class="send">
-						<input type="submit" value="Send">
-					</div>					
-			 	</form>
-			 </div>
-			 </div>
 		</div>
-	<script>
-		function form(){
-			var name = document.getElementById("fname").value;
-			alert(name);
-			
-			
-		}	</script>
-	
-	
-	
-	
-	<div class="footer">
-		<div class="connect"><h3>Join via:</h3>
-			<div class="facebook"><a href="https://www.facebook.com/TripDbeatboxer"><img src="image/socialmedialogo/facebook-icon.png" alt="facebook icon"></a></div>
-			<div class="instagram"><a href="https://www.instagram.com/tripsaswat/"><img src="image/socialmedialogo/new-logo1.jpg" alt="instagram icon"></a></div>
-			<div class="linkedin"><a href="https://www.linkedin.com/in/saswat-tripathi-95b599142/" ><img src="image/socialmedialogo/linkedin-icon-27.png" alt="linkedin icon"></a></div>
-			<div class="twitter"><a href="https://twitter.com/Trip_D_Ace?lang=en"><img src="image/socialmedialogo/92574_twitter_512x512.png" alt="twitter icon"></a></div>
+
+
+
+		<div class="footer"><!--Footer refering to connect via social media-->
+			<div class="connect"><h2>Join via:</h2>
+				<div class="facebook"><a href="https://www.facebook.com/TripDbeatboxer"><img src="facebook-icon.png" alt="facebook icon"></a></div>
+				<div class="instagram"><a href="https://www.instagram.com/tripsaswat/"><img src="new-logo1.jpg" alt="instagram icon"></a></div>
+				<div class="linkedin"><a href="https://www.linkedin.com/in/saswat-tripathi-95b599142/" ><img src="linkedin-icon-27.png" alt="linkedin icon"></a></div>
+				<div class="twitter"><a href="https://twitter.com/Trip_D_Ace?lang=en"><img src="92574_twitter_512x512.png" alt="twitter icon"></a></div>
+			</div>
 		</div>
-		<div class="copyright"><h3>2019 Saswat</h3></div>
+		<script src="script.js"></script>
 	</div>
-	<script type="text/javascript" src="script.js"></script>
-</body>
-</html>
+		<!--Starting the script here to validate the form.-->
+	</body>
+	</html>
